@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Eduardo Pina - Personal Portfolio">
-    <title>Eduardo Pina | Portfolio</title>
+    <meta name="description" content="Eduardo Pina - Ingénieur DevSecOps & Développeur Portfolio">
+    <title>Eduardo Pina | Ingénieur DevSecOps</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,9 +13,10 @@
             <div class="container">
                 <h1 class="logo">Eduardo Pina</h1>
                 <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -26,80 +27,286 @@
         <section id="hero" class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <h2>Hello, I'm Eduardo Pina</h2>
-                    <p class="subtitle">Developer | Creator | Problem Solver</p>
-                    <p class="description">Welcome to my personal portfolio. I'm passionate about building innovative solutions and learning new technologies.</p>
-                    <a href="#contact" class="btn">Get In Touch</a>
+                    <div class="hero-image">
+                        <img src="profile.jpg" alt="Eduardo Pina - DevSecOps Engineer" class="profile-img">
+                    </div>
+                    <h2>Eduardo Pina</h2>
+                    <p class="subtitle">Ingénieur DevSecOps | Développeur | Passionné de Sécurité</p>
+                    <p class="description">Passionné par la création d'infrastructures sécurisées et évolutives et la mise en œuvre de solutions de surveillance robustes avec Kubernetes, Prometheus et les pratiques DevOps modernes.</p>
+                    <a href="#contact" class="btn">Me Contacter</a>
                 </div>
             </div>
         </section>
 
         <section id="about" class="about">
             <div class="container">
-                <h2 class="section-title">About Me</h2>
+                <h2 class="section-title">À propos de moi</h2>
                 <div class="about-content">
-                    <p>I'm a developer who loves creating meaningful projects and exploring new technologies. With a focus on clean code and user experience, I strive to build solutions that make a difference.</p>
-                    <p>When I'm not coding, you can find me learning about the latest tech trends, contributing to open-source projects, or working on personal side projects.</p>
+                    <div class="about-grid">
+                        <div class="about-left">
+                            <div class="about-section">
+                                <h3>💼 Expériences Professionnelles</h3>
+                                <div class="experience-detail">
+                                    <h4><strong>Ingénieur DevSecOps - ITRUST (Groupe Iliad)</strong> <span class="period">Août 2024 - En cours</span></h4>
+                                    <ul>
+                                        <li>Configuration système d'authentification centralisé (SSO) avec Keycloak (OAuth2/OpenID Connect)</li>
+                                        <li>Développement API de métriques Prometheus avec indicateurs personnalisés pour la sécurité</li>
+                                        <li>Intégration métriques SIEM et déploiement reverse proxy via Ansible</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="experience-detail">
+                                    <h4><strong>Développeur Full Stack - KWARK EDUCATION</strong> <span class="period">Nov 2023 - Mars 2024</span></h4>
+                                    <ul>
+                                        <li>Développement plateforme EdTech avec IA pour correction automatisée d'examens</li>
+                                        <li>Implémentation algorithmes de traitement de données et optimisation performances</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="experience-detail">
+                                    <h4><strong>Développeur Web - GROUPE DEKUPLE</strong> <span class="period">Janv 2023 - Nov 2023</span></h4>
+                                    <ul>
+                                        <li>Développement sites sur mesure avec Symfony 6 et jQuery</li>
+                                        <li>Mise en place tests de charge K6 + visualisation Grafana et pipelines CI/CD</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="experience-detail">
+                                    <h4><strong>Développeur Maintenance - AGENCE WEB PILOT'IN</strong> <span class="period">Sep 2022 - Déc 2022</span></h4>
+                                    <ul>
+                                        <li>Maintenance sites e-commerce (TMA) et correction bugs critiques</li>
+                                        <li>Patches de sécurité et optimisations de performance</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="experience-detail">
+                                    <h4><strong>Développeur Frontend - PRETTO</strong> <span class="period">Déc 2021 - Sep 2022</span></h4>
+                                    <ul>
+                                        <li>Migration JavaScript vers TypeScript et développement composants réutilisables</li>
+                                        <li>Implémentation tests unitaires et optimisation performances frontend</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="about-section">
+                                <h3>🎓 Formation</h3>
+                                <ul>
+                                    <li>
+                                        <strong>ÉCOLE ESGI</strong><br>
+                                        <span class="degree">Mastère Cybersécurité & Architecture des Logiciels (BAC+5)</span>
+                                        <span class="period">2024 - 2026</span><br>
+                                        <span class="subjects">Audit de Systèmes d'Informations | Cryptographie avancée | Linux administration avancée | Sécurité des Réseaux | Identity Access Management (IAM) | Architecture de logiciels</span>
+                                    </li>
+                                    <li>
+                                        <strong>ÉCOLE HETIC</strong><br>
+                                        <span class="degree">Bachelor Développeur Concepteur d'Applications (BAC+3)</span>
+                                        <span class="period">2021 - 2023</span><br>
+                                        <span class="subjects">Programmation fonctionnelle et orientée objets | Développement backend et frontend des applications web</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="about-section">
+                                <h3>🏆 Certifications</h3>
+                                <ul>
+                                    <li><strong>En préparation :</strong> CKA (Certified Kubernetes Administrator)</li>
+                                    <li><strong>En préparation :</strong> CKS (Certified Kubernetes Security)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="about-right">
+                            <div class="about-section">
+                                <h3>❤️ Mes Passions</h3>
+                                <ul>
+                                    <li><strong>Sécurité informatique</strong> - Implémentation de solutions SIEM et monitoring</li>
+                                    <li><strong>Technologies cloud-natives</strong> - Kubernetes, conteneurs et orchestration</li>
+                                    <li><strong>Observabilité</strong> - Prometheus, Grafana, stack ELK</li>
+                                    <li><strong>Automatisation</strong> - Infrastructure as Code, CI/CD</li>
+                                    <li><strong>Architecture sécurisée</strong> - Conception de systèmes résilients</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="about-section">
+                                <h3>💪 Mes Atouts</h3>
+                                <ul>
+                                    <li><strong>Polyvalence technique</strong> - Du développement à l'infrastructure</li>
+                                    <li><strong>Vision sécurité</strong> - Intégration des bonnes pratiques SecOps</li>
+                                    <li><strong>Esprit d'équipe</strong> - Collaboration efficace en environnement DevOps</li>
+                                    <li><strong>Veille technologique</strong> - Constamment à jour sur les nouvelles technologies</li>
+                                    <li><strong>Résolution de problèmes</strong> - Approche méthodique et analytique</li>
+                                    <li><strong>Adaptabilité</strong> - Capacité à évoluer rapidement dans des environnements complexes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="skills" class="skills">
             <div class="container">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title">Mes Compétences</h2>
                 <div class="skills-grid">
                     <div class="skill-card">
-                        <h3>Frontend Development</h3>
-                        <p>HTML, CSS, JavaScript</p>
+                        <h3>🔐 Sécurité & Authentification</h3>
+                        <p>Keycloak SSO, OAuth2/OpenID Connect, IAM, Implémentation SIEM</p>
                     </div>
                     <div class="skill-card">
-                        <h3>Backend Development</h3>
-                        <p>Node.js, Python, APIs</p>
+                        <h3>☸️ Orchestration de Conteneurs</h3>
+                        <p>Kubernetes, Docker, Préparation CKA/CKS, Architecture Cloud-Native</p>
                     </div>
                     <div class="skill-card">
-                        <h3>Tools & Technologies</h3>
-                        <p>Git, GitHub, VS Code</p>
+                        <h3>📊 Monitoring & Observabilité</h3>
+                        <p>Prometheus, Grafana, Stack ELK, Métriques Personnalisées, Tests de Performance (K6)</p>
                     </div>
                     <div class="skill-card">
-                        <h3>Soft Skills</h3>
-                        <p>Problem Solving, Communication, Teamwork</p>
+                        <h3>💻 Langages de Programmation</h3>
+                        <p>Python, Go, TypeScript, JavaScript, Scripts Bash</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>🚀 DevOps & CI/CD</h3>
+                        <p>Ansible, Pipelines CI/CD, Infrastructure as Code, Automatisation</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>🌐 Développement Web</h3>
+                        <p>Symfony 6, Node.js, Développement d'API, Configuration Reverse Proxy</p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Expérience Professionnelle</h2>
+                <div class="experience-timeline">
+                    <div class="experience-item">
+                        <h3>Ingénieur DevSecOps - ITRUST (Groupe Iliad)</h3>
+                        <p class="experience-period">Août 2024 - En cours</p>
+                        <ul>
+                            <li>Configuration d'un système d'authentification centralisé (SSO) avec Keycloak, basé sur OAuth2/OpenID Connect pour sécuriser l'accès aux applications et APIs</li>
+                            <li>Conception et développement d'une API de collecte, calcul et exposition de métriques Prometheus, incluant des indicateurs personnalisés pour la supervision et l'analyse de sécurité</li>
+                            <li>Intégration de métriques issues du SIEM et des services métier, avec déploiement d'un reverse proxy et configuration de production via Ansible</li>
+                            <li>Mise en place de pipelines de monitoring et d'alerting pour améliorer la visibilité sur l'infrastructure</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Développeur Full Stack - KWARK EDUCATION</h3>
+                        <p class="experience-period">Nov 2023 - Mars 2024</p>
+                        <ul>
+                            <li>Développement de fonctionnalités pour une plateforme EdTech intégrant l'IA pour la correction automatisée de copies d'examen</li>
+                            <li>Implémentation d'algorithmes de traitement de données pour l'analyse automatique des réponses</li>
+                            <li>Optimisation des performances de l'application et amélioration de l'expérience utilisateur</li>
+                            <li>Collaboration étroite avec l'équipe produit pour définir les spécifications techniques</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Développeur Web - GROUPE DEKUPLE</h3>
+                        <p class="experience-period">Janv 2023 - Nov 2023</p>
+                        <ul>
+                            <li>Développement de sites web sur mesure avec Symfony 6 et jQuery, respectant les bonnes pratiques de développement</li>
+                            <li>Conception et mise en place de tests de charge avec K6 et visualisation des résultats avec Grafana</li>
+                            <li>Mise en place de pipelines CI/CD pour automatiser le déploiement et garantir la qualité du code</li>
+                            <li>Optimisation des performances web et mise en place de métriques de monitoring</li>
+                            <li>Formation et accompagnement des équipes sur les nouvelles technologies</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Développeur Maintenance - AGENCE WEB PILOT'IN</h3>
+                        <p class="experience-period">Sep 2022 - Déc 2022</p>
+                        <ul>
+                            <li>Maintenance des sites web e-commerce (TMA) avec intervention sur des technologies variées</li>
+                            <li>Correction de bugs critiques et optimisations de performance pour améliorer l'expérience client</li>
+                            <li>Mise à jour des dépendances et patches de sécurité pour maintenir la sécurité des applications</li>
+                            <li>Documentation technique et transmission des connaissances aux équipes</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Développeur Frontend - PRETTO</h3>
+                        <p class="experience-period">Déc 2021 - Sep 2022</p>
+                        <ul>
+                            <li>Refactorisation et migration du code de JavaScript vers TypeScript pour améliorer la maintenabilité</li>
+                            <li>Développement de nouvelles fonctionnalités et composants applicatifs réutilisables</li>
+                            <li>Implémentation de tests unitaires et d'intégration pour garantir la qualité du code</li>
+                            <li>Optimisation des performances frontend et amélioration de l'accessibilité</li>
+                            <li>Collaboration avec l'équipe UX/UI pour l'intégration des maquettes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
 
         <section id="projects" class="projects">
             <div class="container">
-                <h2 class="section-title">Projects</h2>
+                <h2 class="section-title">Mes Projets</h2>
                 <div class="projects-grid">
                     <div class="project-card">
-                        <h3>Project 1</h3>
-                        <p>A description of an interesting project you've worked on. This could be a web application, tool, or any creative work.</p>
-                        <a href="#" class="project-link">View Project →</a>
+                        <h3>🔍 Stack de Surveillance Avancée</h3>
+                        <p>Projet annuel d'implémentation d'un système de surveillance complet avec Prometheus, Grafana, et stack ELK. Inclut l'intégration SIEM et une infrastructure de monitoring multi-machines.</p>
+                        <div class="project-tech">
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                            <span>Stack ELK</span>
+                            <span>SIEM</span>
+                            <span>Kubernetes</span>
+
+                        </div>
                     </div>
                     <div class="project-card">
-                        <h3>Project 2</h3>
-                        <p>Another project showcasing your skills and creativity. Highlight what makes this project special.</p>
-                        <a href="#" class="project-link">View Project →</a>
+                        <h3>🔐 Solution SSO Entreprise</h3>
+                        <p>Implémentation SSO prête pour la production avec Keycloak, sécurisant plusieurs applications et API avec les protocoles OAuth2/OpenID Connect.</p>
+                        <div class="project-tech">
+                            <span>Keycloak</span>
+                            <span>OAuth2</span>
+                            <span>Ansible</span>
+                        </div>
                     </div>
                     <div class="project-card">
-                        <h3>Project 3</h3>
-                        <p>A third project demonstrating your diverse capabilities and interests in technology.</p>
-                        <a href="#" class="project-link">View Project →</a>
+                        <h3>📊 API de Métriques Prometheus</h3>
+                        <p>API personnalisée pour la collecte, le calcul et l'exposition de métriques de sécurité avec intégration aux systèmes SIEM et déploiement de reverse proxy.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Prometheus</span>
+                            <span>Conception API</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- <section id="certifications" class="certifications">
+            <div class="container">
+                <h2 class="section-title">Certifications & Formation</h2>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <h3>🎯 En cours</h3>
+                        <p>Certified Kubernetes Administrator (CKA)</p>
+                        <p>Certified Kubernetes Security (CKS)</p>
+                    </div>
+                    <div class="cert-card">
+                        <h3>🎓 Formation</h3>
+                        <p>Formation en alternance - Développeur</p>
+                        <p>Spécialisation en pratiques DevSecOps</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
         <section id="contact" class="contact">
             <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
+                <h2 class="section-title">Connectons-nous</h2>
                 <div class="contact-content">
-                    <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                    <p>Je suis toujours intéressé par les discussions sur les défis DevSecOps, la sécurité Kubernetes, ou les solutions de monitoring. Construisons ensemble quelque chose de sécurisé !</p>
                     <div class="contact-links">
-                        <a href="https://github.com/eduardevs" target="_blank" class="contact-link">GitHub</a>
-                        <a href="mailto:contact@example.com" class="contact-link">Email</a>
-                        <a href="https://linkedin.com/in/eduardopina" target="_blank" class="contact-link">LinkedIn</a>
+                        <a href="https://github.com/eduardevs" target="_blank" class="contact-link">
+                            <span class="icon">📁</span> GitHub
+                        </a>
+                        <a href="mailto:eduardopina.dev@gmail.com" class="contact-link">
+                            <span class="icon">✉️</span> Email
+                        </a>
+                        <a href="https://linkedin.com/in/eduardo-pina" target="_blank" class="contact-link">
+                            <span class="icon">💼</span> LinkedIn
+                        </a>
                     </div>
                 </div>
             </div>
@@ -108,7 +315,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Eduardo Pina. All rights reserved.</p>
+            <p>&copy; 2026 Eduardo Pina - Ingénieur DevSecOps. Tous droits réservés.</p>
         </div>
     </footer>
 </body>
